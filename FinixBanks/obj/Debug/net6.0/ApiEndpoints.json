@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "FinixBanks.Controllers.BanksController",
+    "Method": "CreateMultipleBanks",
+    "RelativePath": "api/Banks/CreateMultipleBanks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FinixBanks.BL.Banks.CreateMultipleBanks\u002BCreateMultipleBanksCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinixBanks.Controllers.BanksController",
     "Method": "DeleteBank",
     "RelativePath": "api/Banks/DeleteBank",
     "HttpMethod": "DELETE",

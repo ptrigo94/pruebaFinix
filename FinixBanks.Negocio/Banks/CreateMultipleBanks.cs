@@ -56,7 +56,12 @@ namespace FinixBanks.BL.Banks
                         RoutingNumber = newBank.RoutingNumber
 
                     };
+                    newBanks.Add(newBankToCreate);
                 }
+                await _dbContext.AddRangeAsync(newBanks, cancellationToken);
+                await _dbContext.SaveChangesAsync(cancellationToken);
+
+                return Result<List<Bank>>.Success(newBanks);
             }
         }
     }

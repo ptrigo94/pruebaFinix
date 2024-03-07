@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinixBanks.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d70ecbd51d974ca7dce45dbe63b64e95463c327")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e89c7f861961dc174d421b833cd77b630aa6859")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinixBanks.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinixBanks.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

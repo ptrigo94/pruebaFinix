@@ -21,6 +21,11 @@ namespace FinixBanks.Controllers
         {
             return HandleResult(await _mediator.Send(request));
         }
+        [HttpPost("[action]")]
+        public async Task<ActionResult> CreateMultipleBanks(CreateMultipleBanks.CreateMultipleBanksCommand request)
+        {
+            return HandleResult( await _mediator.Send(request));
+        }
         [HttpGet("[action]")]
         public async Task<ActionResult> GetBankByUid( string uid)
         {
