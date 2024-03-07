@@ -16,7 +16,16 @@ namespace FinixBanks.BL.Banks
 
         public class CreateMultipleBanksCommand : IRequest<Result<List<Bank>>>
         {
-            public List<BankDTO> Banks { get; set; }
+            public List<BankInputModel> Banks { get; set; }
+            public class BankInputModel
+            {
+                public string Uid { get; set; }
+                public long AccountNumber { get; set; }
+                public string Iban { get; set; }
+                public string BankName { get; set; }
+                public int RoutingNumber { get; set; }
+                public string SwiftBic { get; set; }
+            }
 
         }
         public class Handler : IRequestHandler<CreateMultipleBanksCommand, Result<List<Bank>>>
