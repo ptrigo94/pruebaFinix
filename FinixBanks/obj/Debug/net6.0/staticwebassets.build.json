@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yuDBM6PZfEdwTDLnD/u2uZlTbJ9qJtRE52aAPWBnqcI=",
+  "Source": "FinixBanks",
+  "BasePath": "_content/FinixBanks",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

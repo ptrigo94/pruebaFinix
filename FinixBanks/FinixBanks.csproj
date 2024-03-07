@@ -8,8 +8,19 @@
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.16" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\FinixBanks.Core\FinixBanks.Core.csproj" />
+		<ProjectReference Include="..\FinixBanks.Negocio\FinixBanks.BL.csproj" />
+		<ProjectReference Include="..\FinixBanks.Infrastructure\FinixBanks.Infrastructure.csproj" />
+		<ProjectReference Include="..\FinixBanks.Persistencia\FinixBanks.Persistence.csproj" />
+	</ItemGroup>
 
 </Project>

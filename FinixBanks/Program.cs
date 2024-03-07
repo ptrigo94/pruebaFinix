@@ -1,3 +1,8 @@
+using FinixBanks.Persistence;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
+using MediatR;
+using FinixBanks.BL.Banks;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +11,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetBanks.Handler).Assembly));
+builder.Services.AddDbContext<FinixDbContext>(options =>
+options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

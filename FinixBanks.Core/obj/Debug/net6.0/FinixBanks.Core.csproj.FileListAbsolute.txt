@@ -1,0 +1,15 @@
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\bin\Debug\net6.0\FinixBanks.Core.deps.json
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\bin\Debug\net6.0\FinixBanks.Core.runtimeconfig.json
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\bin\Debug\net6.0\FinixBanks.Core.dll
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\bin\Debug\net6.0\FinixBanks.Core.pdb
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.csproj.AssemblyReference.cache
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.AssemblyInfoInputs.cache
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.AssemblyInfo.cs
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.sourcelink.json
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.dll
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\refint\FinixBanks.Core.dll
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.pdb
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\FinixBanks.Core.genruntimeconfig.cache
+C:\Users\pablo\OneDrive\Escritorio\Proyectos\Finix\FinixBanks.Core\obj\Debug\net6.0\ref\FinixBanks.Core.dll

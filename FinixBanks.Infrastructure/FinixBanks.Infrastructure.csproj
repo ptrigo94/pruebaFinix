@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -9,6 +9,11 @@
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.16" />
   </ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\FinixBanks.Negocio\FinixBanks.BL.csproj" />
+		<ProjectReference Include="..\FinixBanks.Persistencia\FinixBanks.Persistence.csproj" />
+	</ItemGroup>
 </Project>

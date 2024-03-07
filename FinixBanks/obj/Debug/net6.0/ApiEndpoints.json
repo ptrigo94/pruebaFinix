@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "FinixBanks.Controllers.BanksController",
+    "Method": "CreateBank",
+    "RelativePath": "api/Banks/CreateBank",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FinixBanks.BL.Banks.CreateBank\u002BCreateBankCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinixBanks.Controllers.BanksController",
+    "Method": "DeleteBank",
+    "RelativePath": "api/Banks/DeleteBank",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "FinixBanks.BL.Banks.DeleteBank\u002BDeleteBankQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinixBanks.Controllers.BanksController",
+    "Method": "EditBankName",
+    "RelativePath": "api/Banks/EditBankName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "FinixBanks.BL.Banks.EditBank\u002BEditBankQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinixBanks.Controllers.BanksController",
+    "Method": "GetBankByUid",
+    "RelativePath": "api/Banks/GetBankByUid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinixBanks.Controllers.BanksController",
+    "Method": "GetBanks",
+    "RelativePath": "api/Banks/GetBanks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinixBanks.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FinixBanks.WeatherForecast, FinixBanks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
